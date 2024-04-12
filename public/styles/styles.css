@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("/images/background.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh;
+}
+.form {
+  text-align: center; /* Center text within the div */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Optional: Set a background color with some transparency */
+  padding: 20px;
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+.rain {
+  height: 30%;
+  width: 30%;
+}
+.label {
+  color: black;
+}
+.cards {
+  color: black;
+}

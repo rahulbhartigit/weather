@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form">
+      <img src="/images/rain.png" alt="" class="rain" />
+      <form action="/submit" method="post">
+        <label for="dataInput" class="label">Location:</label>
+        <input type="text" id="dataInput" name="userData" />
+        <button type="submit">Submit</button>
+      </form>
+
+      <section id="cards" class="cards">
+        <%if (locals.data) {%>
+
+        <article class="card-item">
+          <div class="card-info">
+            <span class="card-city">
+              The temperature of <%= city%> is <%= data%>°C
+              <span class="card-number"></span>
+            </span>
+          </div>
+        </article>
+
+        <%}%> <%if (locals.error) {%>
+        <div id="tag-error" class="tag-error"><%=error%></div>
+        <%}%>
+      </section>
+    </div>
+  </body>
+</html>

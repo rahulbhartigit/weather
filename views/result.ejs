@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/result.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="parent-glass">
+      <div class="child-glass-a">
+        <div class="container">
+          <div class="city"><p class="font"><%=city%></p></div>
+          <div class="date"><p class="font"><%=currentDate%></p></div>
+        </div>
+        <div class="container">
+          <div class="temp"><h1><%=tempData%>°</h1></div>
+          <div class="wind">
+            <div class="container wind box1">
+              <img class="icon1" src="/images/wind.png" alt="" />
+              <p><%=wind%>mph</p>
+            </div>
+            <div class="container humidity">
+              <img class="icon1" src="/images/humidity.png" alt="" />
+              <p><%=humidity%>%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="description1"><p><%=description%></p></div>
+      </div>
+      <div class="child-glass-b">
+        <div class="message center-div"><p class="mar"><%=message%></p></div>
+        <div class="time center-div"><p><%=time%> <%=meridian%></p></div>
+        <div class="container">
+          <div class="tempData center-div"><h2><%=tempData%>°</h2></div>
+          <div class="container">
+            <div class="wind center-div">
+              <img class="icon2" src="/images/wind.png" alt="" />
+              <p><%=wind%>mph</p>
+            </div>
+          </div>
+          <div class="container">
+            <div class="humidity center-div">
+              <img class="icon2" src="/images/humidity.png" alt="" />
+              <p><%=humidity%>%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="description2 center-div"><p><%=description%></p></div>
+      </div>
+    </div>
+  </body>
+</html>

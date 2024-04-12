@@ -1,0 +1,91 @@
+body {
+  background-color: #b4b4b8;
+  padding: 1.35rem;
+}
+.glass {
+  background-color: white;
+}
+.parent-glass {
+  display: flex;
+}
+.child-glass-a {
+  height: 90vh;
+  width: 70%;
+  background-color: #e3e1d9;
+  float: left;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+.child-glass-b {
+  height: 90vh;
+  width: 30%;
+  background-color: #c7c8cc;
+  float: right;
+
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.container {
+  display: flex;
+}
+.city {
+  padding-left: 90px;
+  padding-top: 20px;
+}
+.date {
+  padding-left: 70vh;
+  padding-top: 20px;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.font {
+  font-size: 2rem;
+}
+.icon1 {
+  width: 30px;
+}
+.temp {
+  font-size: 6rem;
+
+  text-align: center;
+  z-index: 2;
+  margin-left: 40%;
+  color: #555843;
+}
+.box1 {
+  z-index: 1;
+  margin-top: 180px;
+}
+.description1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  color: #555843;
+}
+h1 {
+  margin-bottom: 0px;
+}
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message {
+  font-size: 30px;
+}
+.time {
+  font-size: 20px;
+}
+.mar {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.icon2 {
+  width: 20px;
+}
